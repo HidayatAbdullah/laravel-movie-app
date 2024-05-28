@@ -29,5 +29,15 @@ class GenreSeeder extends Seeder
             'name' => 'School',
             'description' => ' It focuses on school students and is closely related to other genres such as slice of life, action, comedy, and especially romance.',
         ]);
+
+        Genre::create([
+            'name' => 'Comedy',
+            'description' => ' a genre that places characters in humorous situations for the sake of humor',
+        ]);
+
+        Genre::create([
+            'name' => 'Horror',
+            'description' => 'has a theme with the use of supernatural elements, terrifying creatures, or events that make no sense.',
+        ]);
     }
 }
