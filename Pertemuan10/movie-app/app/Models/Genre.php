@@ -11,9 +11,4 @@ class Genre extends Model
 
     protected $fillable = ['name', 'description'];
 
-    public function getAllGenres()
-    {
-        return $this->genres;
-    }
-
 }

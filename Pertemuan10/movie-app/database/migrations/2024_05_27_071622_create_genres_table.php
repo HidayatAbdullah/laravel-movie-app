@@ -14,7 +14,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('genres', function (Blueprint $table) {
-            $table->sting('id');
+            $table->id();
             $table->string('name');
             $table->text('description')->nullable();
             $table->timestamps();

@@ -36,5 +36,21 @@ class MovieSeeder extends Seeder
             'poster' => 'movie-03.jpg',
             'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
         ]);
+
+        Movie::create([
+            'id' => 4,
+            'title' => 'Spy x Family',
+            'genre_id' => '4',
+            'poster' => 'movie-04.jpg',
+            'synopsis' => 'A spy who has to "build a family" to execute a mission, not realizing that his adopted daughter is a telepath, and the woman he agrees to marry is a skilled assassin.',
+        ]);
+
+        Movie::create([
+            'id' => 5,
+            'title' => 'From Up On Poppy Hill',
+            'genre_id' => '5',
+            'poster' => 'movie-05.jpg',
+            'synopsis' => 'Its 1963 and Japan is in the midst of swift modernisation, leaving behind the Second World Wars painful memories and focusing on a brighter future, symbolised by the coming years Tokyo Olympics',
+        ]);
     }
 }
